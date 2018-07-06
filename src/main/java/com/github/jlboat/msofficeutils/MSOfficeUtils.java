@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.github.jlboat.excelreader;
+package com.github.jlboat.msofficeutils;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import org.apache.poi.ss.usermodel.Workbook;
  *
  * @author J. Lucas Boatwright
  */
-public class ExcelReader {
+public class MSOfficeUtils {
     public static void main(String[] args){
         Workbook wb = new HSSFWorkbook();
         try (OutputStream fileOut = new FileOutputStream(args[0])){
