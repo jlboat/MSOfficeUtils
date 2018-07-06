@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.jlboat.excelreader.ExcelReader</mainClass>
+                            <mainClass>com.github.jlboat.msofficeutils.MSOfficeUtils</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
